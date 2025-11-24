@@ -8,7 +8,10 @@ function exibirTextoNaTela(tag, texto) {
     campo.innerHTML = texto;
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
-    exibirMensagemInicial();
+exibirTextoNaTela('h1', 'Jogo do número secreto');
+        exibirTextoNaTela('p', 'Escolha entre um número de 1 a 10');
+
+        exibirMensagemInicial();
 
         
 function exibirMensagemInicial() {
